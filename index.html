@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="greeting">Welcome to My Portfolio</h1>
+        <p class="intro">Hello!</p>
+        <button id="light">Light Mode</button>
+        <button id="dark">Dark Mode</button>
+    </header>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>I am a 2nd-year student in AITU.</p>
+            <p id="status">Currently learning jQuery.</p>
+            <p id="facts">I enjoy music, baking and travelling.</p>
+            <button id="hide">Hide</button>
+            <button id="show">Show</button>
+            <button id="toggle">Toggle</button>
+        </section>
+        <section>
+            <h2>My Gallery</h2>
+            <img class="gallery" src="images/1.jpg" alt="Photo 1">
+            <img class="gallery" src="images/2.jpg" alt="Photo 2">
+            <br>
+            <button id="fadeIn">Fade In</button>
+            <button id="fadeOut">Fade Out</button>
+            <button id="fadeToggle">Fade Toggle</button>
+        </section>
+        <section>
+            <h2>My Favorites</h2>
+            <h3 class="heading">My Favorite Music</h3>
+            <div class="panel">I enjoy listening to pop music.</div>
+
+            <h3 class="heading">My Favorite Movie</h3>
+            <div class="panel">I enjoy watching detective movies.</div>
+
+            <h3 class="heading">My Favorite Subject</h3>
+            <div class="panel">My favorite subject is math.</div>
+        </section>
+        <section>
+            <h2>My Technical Skills</h2>
+            <ul id="skills">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+            </ul>
+            <input type="text" id="newSkill" placeholder="Enter a skill">
+            <button id="add">Add Skill</button>
+            <button id="prepend">Prepend Skill</button>
+            <button id="remove">Remove Skill</button>
+        </section>
+        <section>
+            <h2>My Social Media</h2>
+            <a id="social" href="https://github.com">My GitHub</a>
+            <button id="changeLink">Change Link</button>
+        </section>
+        <section>
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name">
+                <input type="email" id="email" placeholder="Your Email">
+            </form>
+            <p id="liveName"></p>
+            <p id="liveEmail"></p>
+        </section>
+        <section>
+            <h2>My Skill Levels</h2>
+            <p>HTML</p>
+            <div class="bar"><div id="htmlBar" class="progress"></div></div>
+            <p>CSS</p>
+            <div class="bar"><div id="cssBar" class="progress"></div></div>
+            <p>JavaScript</p>
+            <div class="bar"><div id="jsBar" class="progress"></div></div>
+            <button id="animate">Animate Skills</button>
+        </section>
+    </main>
+    <footer>
+        <p>My Portfolio - 2026</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

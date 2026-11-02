@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #edf7fc;
+    color: #263746;
+}
+
+header, footer {
+    background-color: #cfeafa;
+    text-align: center;
+    padding: 25px;
+}
+
+h1, h2 {
+    color: #245b7a;
+}
+
+main {
+    max-width: 750px;
+    margin: 25px auto;
+    padding: 0 15px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #d6e7f0;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #347fa6;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #245b7a;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #b9cedb;
+    border-radius: 5px;
+}
+
+.gallery {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+.panel {
+    display: none;
+    background-color: #edf7fc;
+    padding: 15px;
+}
+
+.heading {
+    background-color: #cfeafa;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.bar {
+    background-color: #dce8ee;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.progress {
+    background-color: #347fa6;
+    width: 0;
+    height: 20px;
+    border-radius: 10px;
+}
+
+body.dark {
+    background-color: #263746;
+    color: white;
+}
+
+body.dark section {
+    background-color: #354b5c;
+}
+
+body.dark h1, body.dark h2 {
+    color: #a9dafa;
+}
+
+body.dark header, body.dark footer {
+    background-color: #1d2b36;
+}
+
+body.dark .panel, body.dark .heading {
+    background-color: #526b7d;
+}
