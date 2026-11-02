@@ -1,5 +1,5 @@
 # Assignment 6
-Name: Alish Medina  
+Name: Alish Medina   
 Group: SE-2538
 
 ## Overview
